@@ -1,0 +1,33 @@
+.head {
+    display: grid;
+    grid-auto-flow: column;
+     justify-content: space-between;
+    // align-items: center;
+    height: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.imgHeight {
+    height: 6rem;
+}
+
+.img {
+    height: 2rem;
+}
+
+.search {
+    width: 25rem;
+    margin: auto;
+    input {
+        width: 20rem;
+        padding: 5px;
+        border-top-left-radius: 21px;
+        border-bottom-left-radius: 21px;
+    }
+    button {
+        width: 3.5rem;
+        padding: 5px;
+        border-top-right-radius: 21px;
+        border-bottom-right-radius: 21px;
+        cursor: pointer;
+    }
+}

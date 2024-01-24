@@ -1,10 +1,13 @@
-import React from "react"
-import SideBar from "./SideBar";
-import MainContainer from "./MainContainer";
+import Button from "./Button";
 
 const ButtonList = () => {
+  
   return <div>
-   ButtonList
+   <Button name="All"/>
+   <Button name="News"/>
+   <Button name="Entertainment"/>
+   <Button name="Sports"/>
+   <Button name="Movies"/>
   </div>  
 }
 
