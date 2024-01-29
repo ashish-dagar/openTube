@@ -8,6 +8,10 @@ const ButtonList = () => {
    <Button name="Entertainment"/>
    <Button name="Sports"/>
    <Button name="Movies"/>
+   <Button name="News"/>
+   <Button name="Entertainment"/>
+   <Button name="Sports"/>
+   <Button name="Movies"/>
   </div>  
 }
 
